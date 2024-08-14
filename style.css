@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+.center{
+    text-align: center;
+}
+
+header{
+    background-image: linear-gradient(to right, purple, yellow );
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke-width: 0.75px;
+    -webkit-text-stroke-color: black;
+}
+body{
+    margin: 0;
+}
+main{
+    text-align: center;
+    display: inline-block;
+    width: 25%;
+    padding: 8px;
+    background: green;
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+}
+.main-button{
+    border-style: solid;
+    border-width: 1px;
+    background-color: green;
+    float: left;
+    height: 40px;
+    width: 25%;
+}
+button:hover{
+    background-color: rgb(17, 155, 17);
+}
+button:focus{
+    background:rgb(6, 80, 6);
+}
